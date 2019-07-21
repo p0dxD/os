@@ -51,8 +51,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-#executables
+#project specific executables
 hello
 multiboot_header
 boot
 *.iso
+build/
