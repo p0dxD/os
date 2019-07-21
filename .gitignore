@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#executables
+hello
+multiboot_header
+boot
+*.iso
