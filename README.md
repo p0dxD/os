@@ -28,3 +28,13 @@ I also installed the following brew install autoconf-archive
 
 
 After having all the above I went into the cloned repo grub folder and was able to follow the steps in the following page without any issues. [Link.](https://wiki.osdev.org/GRUB_2#Installing_GRUB_2_on_OS_X)
+
+I installed qemu from [source](git clone https://github.com/qemu/qemu.git) having all the above dependencies should allow for this.
+
+Following the steps provided in their [website](https://wiki.qemu.org/Hosts/Mac).
+
+### Getting it running
+
+* make
+* make iso
+* make run 
