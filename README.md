@@ -4,8 +4,9 @@ Kernel project using Rust following the tutorial by Philipp Oppermann, can be fo
 
 Downloaded
 binutils-2.31.90.tar.xz
-`sudo mv ~/Downloads/binutils-2.31.90.tar.xz /usr/local/build-binutils`
-`sudo tar -vxf /usr/local/build-binutils/binutils-2.31.90.tar.xz`
+
+* `sudo mv ~/Downloads/binutils-2.31.90.tar.xz /usr/local/build-binutils`
+* `sudo tar -vxf /usr/local/build-binutils/binutils-2.31.90.tar.xz`
 
 After running the configuring found in his tutorial in the following page [link] I was able to access it at the following:
 ~/opt/cross/x86_64-elf/bin/ , I refer to this directly to not get messed up with the one that comes with Mac
@@ -13,7 +14,8 @@ After running the configuring found in his tutorial in the following page [link]
 Installing grub was a bit more tricky but the following worked for me
 Cloned repo git clone git clone git://git.savannah.gnu.org/grub.git  
 Installed the following tools
- * `brew install autoconf automake libtool`
+
+* `brew install autoconf automake libtool`
 * `brew install gcc`
 * `brew install nasm`
 
